@@ -1,0 +1,33 @@
+
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body{
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+}
+
+.image-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+svg {
+  overflow: hidden;
+}
+
+img, svg {
+  vertical-align: middle;
+  width: 14vw;
+}
+
+

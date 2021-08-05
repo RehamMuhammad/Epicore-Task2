@@ -1,0 +1,54 @@
+/*Styling The Headline */
+
+
+.dashboard{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+
+/*Styling The frequent geometrical shape */
+
+.features-Square {
+    width: 29rem;
+    height: 20rem;
+    display: inline-block;
+    background-color:rgb(224, 221, 221);
+    position: relative;
+}
+
+.features-circle{
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(160, 158, 158);
+    border: 2px solid rgb(160, 158, 158);
+    background-image: linear-gradient(-18deg, rgb(160, 158, 158) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgb(224, 221, 221) 50%);
+    position: absolute;
+    top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+/*Start the flexbox styles for the Features section*/
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5rem auto 0rem auto;
+}
+
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/*End the flexbox styles for the Features section*/

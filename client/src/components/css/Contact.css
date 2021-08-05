@@ -1,0 +1,85 @@
+/* General Styles for the Contact Component */
+
+.foot{
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+h3{
+    margin-bottom:0rem;
+    font-size: 2.2rem;
+}
+
+h4{
+    font-size: 1.8rem;
+}
+
+/*Styling Part#1 of 3*/
+
+ul{
+    padding: 0rem;
+}
+
+.social-list{
+    list-style: none;
+    display: inline;
+    padding: 0rem;
+}
+
+/*Here i'm Editing the react icons default styles for the social media icons*/ 
+
+.social{
+    display: inline;
+    width: 3rem;    
+}
+
+/*Styling Part#3 of 3*/
+
+input{
+    background-color: black;
+    color: white;
+    border: .5px solid white;
+    width: 20rem;
+    height: 4rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.subscribe-btn{
+    display: inline-block;
+    width: 13rem;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    margin: 1rem 0rem 0rem 2rem;
+}
+
+/* End Styling of the Contact Component */
+
+
+/*Start the flexbox styles for the contact*/
+
+.contact-container{
+    display: flex;
+    margin: 10rem 5rem 5rem 5rem;
+    background-color: black;
+    padding:0rem 0rem 4rem 2rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.5rem;
+}
+
+/*End the flexbox styles for the contact*/
+
